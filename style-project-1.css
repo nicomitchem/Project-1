@@ -1,60 +1,4 @@
-/* .btn1{
-    position: absolute;
-    width: 535px;
-    height: 253px;
-    background: #C0CFD2;
-} */
-/* .box1{
-    position: absolute;
-    width: 488px;
-    height: 178px;
-    left: 79px;
-    top: 259px;
-    
-    background: #C0CFD2;
-}
-.box2{
-    position: absolute;
-    width: 488px;
-    height: 176px;
-    left: 79px;
-    top: 463px;
-    
-    background: #C0CFD2;
-}
 
-.box3{
-    position: absolute;
-    width: 488px;
-    height: 176px;
-    left: 79px;
-    top: 668px;
-    
-    background: #C0CFD2;
-}
-
-.box4{
-    position: absolute;
-    width: 488px;
-    height: 176px;
-    left: 79px;
-    top: 870px;
-    
-    background: #C0CFD2;
-}
-.box5{
-    position: absolute;
-    width: 489px;
-    height: 178px;
-    left: 619px;
-    top: 259px;
-
-    background: #C0CFD2;
-} */
-/* @-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0.5;} 100%{opacity:1;}} /* Firefox */
-/* @-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0.5;} 100%{opacity:1;}} /* Webkit */
-/* @-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0.5;} 100%{opacity:1;}} /* IE */
-/* @keyframes blink {0%{opacity:1;} 50%{opacity:0.5;} 100%{opacity:1;}} Opera */ 
 
 @keyframes title {
     0% {
@@ -67,10 +11,67 @@
     }
 }
 
+
+
+
+/* .overlay{
+background: red;
+position: fixed;
+top:0;
+right: 0;
+bottom: 0;
+left: 0;
+
+} */
+
+
+
+.home-button{
+position: relative;
+/* top: 800px; */
+/* left: 770px; */
+height: 50px;
+width: 150px;
+background-color: #ffefd3;
+border-radius: 25%;
+border: 0px;
+padding-bottom: 20px;
+}
+.home-button {
+    transition-duration: 0.4s;
+  }
+  
+.home-button:hover {
+    background-color: #b0a592; /* Green */
+    color: #e2d5bf;
+  }
+
+
+
+
+
+
+
+
 .bold{
     font-family: 'GTF Plakat Grotesk TRIAL';
     font-size: 35px;
 }
+.bold {
+    transition-duration: 0.4s;
+  }
+  
+.bold:hover {
+    background-color: black;
+    color: #e2d5bf;
+  }
+
+
+
+
+
+
+
 
 
 .btn1 {
@@ -80,7 +81,16 @@
 .btn1:hover {
     background-color: #e2d5bf; /* Green */
     color: #e2d5bf;
+    transition: 200ms ease
+    ;
   }
+
+
+
+
+
+
+
 
 h1{
     animation-name: title;
@@ -89,34 +99,32 @@ h1{
     animation-iteration-count: infinite;
     animation-delay: 1s;
     text-align: center;
-    font-size: 98pt;
+    font-size: calc(20px + 4vw);
     font-family:Arial, Helvetica, sans-serif;
-    margin-top: 5px;
-    /* -moz-transition:all 0.5s ease-in-out;
-    -webkit-transition:all 0.5s ease-in-out;
-    -o-transition:all 0.5s ease-in-out;
-    -ms-transition:all 0.5s ease-in-out;
-    transition:all 0.5s ease-in-out;  */
-    /* -moz-animation:blink normal 2.5s infinite ease-in-out; /* Firefox */
-    /* -webkit-animation:blink normal 2.5s infinite ease-in-out; /* Webkit */
-    /* -ms-animation:blink normal 2.5s infinite ease-in-out; /* IE */
-    /* animation:blink normal 2.5s infinite ease-in-out; Opera  */
+    margin-top: 50px;
 } 
+
+/* media query - above certain screen size switch to */
+
+
 .box1{
     
     position: absolute;
-    width: 488px;
-    height: 178px;
+
+    width: 28vw;
+    height: 10vw;
     left: 79px;
     top: 189px;
     
     
     background: #ffefd3;
 }
+
+
 .btn1{
     position: absolute;
-    width: 488px;
-    height: 178px;
+    width: 100%;
+    height: 100%;
     background: #ffefd3;
     border: 0px;
 }
@@ -124,8 +132,8 @@ h1{
 
 .box2{
     position: absolute;
-    width: 489px;
-    height: 178px;
+    width: 28vw;
+    height: 10vw;
     left: 619px;
     top: 189px;
     
@@ -136,110 +144,131 @@ h1{
 
 .box3{
     position: absolute;
-    width: 490px;
-    height: 178px;
+    width: 28vw;
+    height: 10vw;
     left: 1160px;
     top: 189px;
     
     background: #ffefd3;
 }
+
+
 .box4{
     position: absolute;
-    width: 488px;
-    height: 176px;
+    width: 28vw;
+    height: 10vw;
     left: 79px;
     top: 393px;
     
     background: #ffefd3;
 }
+
+
 .box5{
     position: absolute;
-    width: 489px;
-    height: 176px;
+    width: 28vw;
+    height: 10vw;
     left: 619px;
     top: 393px;
     
     background: #ffefd3;
         
 }
+
+
 .box6{
     position: absolute;
-    width: 490px;
-    height: 176px;
+    width: 28vw;
+    height: 10vw;
     left: 1160px;
     top: 393px;
     
     background: #ffefd3;
 }
+
+
 .box7{
     position: absolute;
-    width: 488px;
-    height: 176px;
+    width: 28vw;
+    height: 10vw;
     left: 79px;
     top: 598px;
     
     background: #ffefd3;
 }
+
+
 .box8{
     position: absolute;
-    width: 489px;
-    height: 176px;
+    width: 28vw;
+    height: 10vw;
     left: 619px;
     top: 598px;
     
     background: #ffefd3;
 }
+
+
 .box9{
     position: absolute;
-    width: 490px;
-    height: 176px;
+    width: 28vw;
+    height: 10vw;
     left: 1160px;
     top: 598px;
 
     background: #ffefd3;
 }
+
+
 .box10{
     position: absolute;
-    width: 488px;
-    height: 178px;
+    width: 28vw;
+    height: 10vw;
     left: 79px;
     top: 800px;
     
     background: #ffefd3;
 }
+
+
 .box11{
     position: absolute;
-    width: 489px;
-    height: 178px;
+    width: 28vw;
+    height: 10vw;
     left: 619px;
     top: 800px;
     
     background: #ffefd3;
 }
+
+
 .box12{
     position: absolute;
-    width: 490px;
-    height: 178px;
+    width: 28vw;
+    height: 10vw;
     left: 1160px;
     top: 800px;
     
     background: #ffefd3;
 
 }
+
+
 .para1{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 200px;
 
 }
 .p1{
 position: absolute;
-width: 1601px;
-height: 819px;
+/* width: 1601px; */
+/* height: 819px; */
 left: 64px;
-top: 99px;
+right: 64px;
+top: 100px;
 
 background: #ffefd3;
 }
@@ -247,16 +276,17 @@ background: #ffefd3;
 .para2{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 200px;
 }
 .p2{
     position: absolute;
-    width: 1601px;
-    height: 819px;
+    /* width: 1601px;
+    height: 819px; */
     left: 64px;
-    top: 99px;
+    right: 64px;
+    top: 80px;
     
     background: #ffefd3;
     }
@@ -264,16 +294,17 @@ background: #ffefd3;
  .para3{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 80px;
     }
 .p3{
     position: absolute;
-    width: 1601px;
-    height: 819px;
+    /* width: 1601px;
+    height: 819px; */
     left: 64px;
-    top: 99px;
+    right: 64px;
+    top: 50px;
     
     background: #ffefd3;
     } 
@@ -281,16 +312,17 @@ background: #ffefd3;
 .para4{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
-    padding-top: 200px;
+    padding-top: 160px;
      }   
 .p4{
      position: absolute;
-     width: 1601px;
-    height: 819px;
+     /* width: 1601px;
+    height: 819px; */
     left: 64px;
-    top: 99px;
+    right: 64px;
+    top: 100px;
         
      background: #ffefd3;
     }
@@ -298,16 +330,17 @@ background: #ffefd3;
 .para5{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 200px;
     }
 .p5{
     position: absolute;
-    width: 1601px;
-    height: 819px;
+    /* width: 1601px;
+    height: 819px; */
     left: 64px;
-    top: 99px;
+    right: 64px;
+    top: 100px;
            
     background: #ffefd3;
      }
@@ -315,16 +348,17 @@ background: #ffefd3;
 .para6{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 120px;
     }    
 .p6{
     position: absolute;
-    width: 1601px;
-    height: 819px;
+    /* width: 1601px;
+    height: 819px; */
     left: 64px;
-    top: 99px;
+    right: 64px;
+    top: 100px;
         
     background: #ffefd3;
     } 
@@ -332,16 +366,17 @@ background: #ffefd3;
 .para7{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 120px;
      }
 .p7{
      position: absolute;
-     width: 1601px;
-    height: 819px;
+     /* width: 1601px;
+    height: 819px; */
     left: 64px;
     top: 99px;
+    right: 64px;
             
     background: #ffefd3;
     }
@@ -349,15 +384,16 @@ background: #ffefd3;
 .para8{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 120px;
      }       
 .p8{
     position: absolute;
-     width: 1601px;
-    height: 819px;
+     /* width: 1601px;
+    height: 819px; */
     left: 64px;
+    right: 64px;
     top: 99px;
                
     background: #ffefd3;
@@ -366,16 +402,17 @@ background: #ffefd3;
 .para9{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
      padding: 65px;
     padding-top: 220px;
     }
 .p9{
      position: absolute;
-     width: 1601px;
-    height: 819px;
+     /* width: 1601px;
+    height: 819px; */
     left: 64px;
      top: 99px;
+     right: 64px;
                        
     background: #ffefd3;
      }
@@ -384,7 +421,7 @@ background: #ffefd3;
 .para10{
 
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 120px;
     }
@@ -401,16 +438,17 @@ background: #ffefd3;
  .para11{
     font-family: 'Keiner';
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 65px;
     padding-top: 220px;
     }
 .p11{
     position: absolute;
-    width: 1601px;
-    height: 819px;
+    /* width: 1601px;
+    height: 819px; */
     left: 64px;
     top: 99px;
+    right: 64px;
                                    
     background: #ffefd3;
     }
