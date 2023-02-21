@@ -99,9 +99,11 @@ h1{
     animation-iteration-count: infinite;
     animation-delay: 1s;
     text-align: center;
-    font-size: calc(20px + 4vw);
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: calc(38px + 4vw);
+    font-family:'GTF Plakat Grotesk TRIAL';
     margin-top: 50px;
+    kerning:auto;
+    padding-bottom: 10px;
 } 
 
 /* media query - above certain screen size switch to */
